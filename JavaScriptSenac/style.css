@@ -1,0 +1,52 @@
+#notaCorpo {
+  background-color: rgb(241, 186, 66);
+  width: 400px;
+  padding: 10px;
+  border: solid white 5px;
+  box-shadow: 0 0 1em gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  margin: 0 0 15px 0;
+}
+
+#textoNome {
+  margin: 0 0 5px 0;
+}
+
+input[type="text"],
+select {
+  width: 200px;
+  padding: 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="number"],
+select {
+  width: 100px;
+  padding: 5px;
+  margin: 3px 0;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="button"],
+select {
+  width: 50%;
+  padding: 5px;
+  background: rgb(20, 52, 119);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  margin: 15px 0 15px 0;
+  font-size: medium;
+}
+
+input[type="button"]:hover {
+  background-color: rgb(31, 89, 214);
+}
