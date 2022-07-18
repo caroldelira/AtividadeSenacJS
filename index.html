@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade JavaScript</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="notaCorpo">
+      <h1>Avaliação Final</h1>
+
+      Nome do Aluno(a):
+      <input type="text" nome="txtNome" id="textoNome" /> <br />
+
+      <p><strong>NOTAS</strong></p>
+
+      Primeiro Bimestre:
+      <input
+        type="number"
+        nome="txtNota1"
+        placeholder="Informe a nota"
+        id="textoNota1"
+      />
+
+      Segundo Bimestre:
+      <input
+        type="number"
+        nome="txtNota2"
+        placeholder="Informe a nota"
+        id="textoNota2"
+      />
+      Terceiro Bimestre:
+      <input
+        type="number"
+        nome="txtNota3"
+        placeholder="Informe a nota"
+        id="textoNota3"
+      />
+      Quarto Bimestre:
+      <input
+        type="number"
+        nome="txtNota4"
+        placeholder="Informe a nota"
+        id="textoNota4"
+      />
+
+      <input type="button" value="Verificar" onclick="calcular()" />
+
+      <p id="paragrafoNota"></p>
+
+      <div id="res"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
